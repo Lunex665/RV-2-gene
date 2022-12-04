@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <GeneDef>
+    <defName>RV2_Hammerspace</defName>
+    <displayCategory>Archite</displayCategory>
+    <biostatArc>1</biostatArc>
+    <label>Hammerspace belly</label>
+    <iconPath>UI/Icons/Genes/ConvertLube</iconPath>
+    <modExtensions>
+      <comps>
+        <li Class="RimVore2.QuirkComp_CapacityOffsetModifier">
+          <capacity>Moving</capacity>
+          <modifierValue>0.0000000001</modifierValue>
+        </li>
+        </comps> 
+      <customEffectDescriptions>
+          <li>The archites in the body create a separate space where what enters is compressed to the point of leaving no traces and not hindering movement</li>
+        </customEffectDescriptions>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>RV2_InfiniteCapacity</defName>
+    <displayCategory>Archite</displayCategory>
+    <biostatArc>1</biostatArc>
+    <label>Space stomach</label>
+    <iconPath>UI/Icons/Genes/ConvertLube</iconPath>
+    <modExtensions>
+      <comps>
+      <li Class="RimVore2.QuirkComp_CapacityOffsetModifier">
+        <modifierName>StorageCapacity</modifierName>
+        <modifierValue>99999</modifierValue>
+      </li>
+        </comps>
+     <customEffectDescriptions>
+        <li>The archites in the body create a separate space in the body that works like the organ in question allowing you to eat an infinite number of prey (not infinite due to program limits but exaggeratedly high)</li>
+      </customEffectDescriptions>
+    </modExtensions>
+  </GeneDef>
+
+  
+</Defs>

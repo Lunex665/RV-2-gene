@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef Abstract="True" Name="RV2_VoreEnabler">
+    <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+    <displayCategory>RV2_Vore</displayCategory>
+    <displayOrderInCategory>300</displayOrderInCategory>
+    <biostatMet>0</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="RV2_VoreEnabler">
+    <defName>RV2_GoalEnabler_Absorb</defName>
+    <label>Cellular xenoconvertibility</label>
+    <iconPath>UI/Icons/Genes/ConvertLube</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>RV2_GoalEnabler_Absorb</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+      <customEffectDescriptions>
+        <li>The owner of this gene can absorb other pawns temporarily (amalgamation) or permanently (assimilation)</li>
+      </customEffectDescriptions>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef ParentName="RV2_VoreEnabler">
+    <defName>RV2_GoalEnabler_ConvertChemfuel</defName>
+    <label>Chemfuel enzymes</label>
+    <iconPath>UI/Icons/Genes/ConvertMilk</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>RV2_GoalEnabler_ConvertChemfuel</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+      <customEffectDescriptions>
+        <li>The owner of this gene can convert other pawns into chemfuel</li>
+      </customEffectDescriptions>
+    </modExtensions>
+    
+  </GeneDef>
+
+  <GeneDef ParentName="RV2_VoreEnabler">
+    <defName>RV2_GoalEnabler_ConvertEggs</defName>
+    <label>Eggfy enzymes</label>
+    <iconPath>UI/Icons/Genes/ConvertSperm</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>RV2_GoalEnabler_ConvertEggs</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+      <customEffectDescriptions>
+        <li>The owner of this gene can convert other pawns into egg</li>
+      </customEffectDescriptions>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef ParentName="RV2_VoreEnabler">
+    <defName>RV2_GoalEnabler_ConvertUrine</defName>
+    <label>Kidney enchanter</label>
+    <iconPath>UI/Icons/Genes/Digest</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>RV2_GoalEnabler_ConvertUrine</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+      <customEffectDescriptions>
+        <li>The owner of this gene boost the kidneys to the point of urinating anything</li>
+      </customEffectDescriptions>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef ParentName="RV2_VoreEnabler">
+    <defName>RV2_GoalEnabler_Cleavage</defName>
+    <label>Cleavage mouth</label>
+    <iconPath>UI/Icons/Genes/Heal</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>RV2_GoalEnabler_Cleavage</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+      <customEffectDescriptions>
+        <li>The owner of this gene has a hidden opening in the cleavage connected directly to the stomach</li>
+      </customEffectDescriptions>
+    </modExtensions>
+  </GeneDef>
+
+
+  <GeneDef ParentName="RV2_VoreEnabler">
+    <defName>RV2_TypeEnabler_Navel</defName>
+    <label>Expandable navel</label>
+    <iconPath>UI/Icons/Genes/TempEndo</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>RV2_TypeEnabler_Navel</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+      <customEffectDescriptions>
+        <li>The owner of this gene has a navel that can dilate to swallow anything</li>
+      </customEffectDescriptions>
+    </modExtensions>
+  </GeneDef>
+  
+  <!-- type enablers-->
+  
+  <GeneDef ParentName="RV2_VoreEnabler">
+    <defName>RV2_TypeEnabler_Membrane</defName>
+    <label>Slime skin</label>
+    <iconPath>UI/Icons/Genes/Reform</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>RV2_TypeEnabler_Membrane</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+      <customEffectDescriptions>
+        <li>The owner of this gene has a semi-liquid skin that can absorb anything and drag it inside the body</li>
+      </customEffectDescriptions>
+    </modExtensions>
+  </GeneDef>
+  
+  <GeneDef ParentName="RV2_VoreEnabler">
+    <defName>RV2_TypeEnabler_Tailmaw</defName>
+    <label>Tail mouth</label>
+    <iconPath>UI/Icons/Genes/Anal</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>RV2_TypeEnabler_Tailmaw</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+      <customEffectDescriptions>
+        <li>The owner of this gene can open a mouth on a tail</li>
+      </customEffectDescriptions>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef ParentName="RV2_VoreEnabler">
+    <defName>RV2_TypeEnabler_Udder</defName>
+    <label>Udder elasticity</label>
+    <iconPath>UI/Icons/Genes/Vaginal</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>RV2_TypeEnabler_Udder</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+      <customEffectDescriptions>
+        <li>The owner of this gene has a udder that can be dilated</li>
+      </customEffectDescriptions>
+    </modExtensions>
+  </GeneDef>
+
+</Defs>

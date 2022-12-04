@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>RimVore-2 gene exstension</name>
+  <author>me</author>
+  <url>https://gitlab.com/Nabber/rimvore-2</url>
+  <packageId>RimVore2.genes</packageId>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  <description>Add a various gene</description>
+  
+  <loadAfter>
+    <li>Nabber.RimVore2</li>
+  </loadAfter>
+</ModMetaData>
