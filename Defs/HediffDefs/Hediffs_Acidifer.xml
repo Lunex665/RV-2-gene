@@ -12,24 +12,6 @@
     </stages>
   </HediffDef>
 
-  <!--<HediffDef ParentName="RV2_VoreEnabledPart_Base">
-    <defName>RV2_Hediff_ForceInescapable</defName>
-    <label>DEBUG_QUIRKFORCER</label>
-    <description>Yo</description>
-    <comps>
-      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
-        <quirks>
-          <li>Cheat_Inescapable</li>
-        </quirks>
-      </li>
-    </comps>
-  </HediffDef>-->
-  
-  <!-- MH: worth considering: instead of checking that the hediff is present, what about a check if the hediff is on the appropriate part? that way one can avoid unlocking several undesired hediffs when, for instance, one only wants to unlock chemfuel conversion in the breasts-->
-  
-  <!-- Goal Enablers 
-  These mainly unlock new goals for a pawn's exisiting types. -->
-  
   <HediffDef ParentName="RV2_Acidifer_Base">
     <defName>RV2_Acid_Normal</defName>
     <label>Normal digestion</label>
