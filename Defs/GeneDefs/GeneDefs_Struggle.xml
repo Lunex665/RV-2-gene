@@ -15,7 +15,7 @@
     <modExtensions>
       <li Class="RimVore2.GeneDefExtension_ForcedHediff">
         <hediffs>
-          <li>RV2_StrugglePreference_Loved</li>
+          <li>Struggle_Loved</li>
         </hediffs>
         <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
       </li>
@@ -30,7 +30,7 @@
     <modExtensions>
       <li Class="RimVore2.GeneDefExtension_ForcedHediff">
         <hediffs>
-          <li>StrugglePreference_Hated</li>
+          <li>Struggle_Hated</li>
         </hediffs>
         <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
       </li>
