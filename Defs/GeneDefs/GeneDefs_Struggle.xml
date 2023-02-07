@@ -8,7 +8,7 @@
   </GeneDef>
 
   <GeneDef ParentName="RV2_Struggle">
-    <defName>RV2_Strugglelover</defName>
+    <defName>RV2_StruggleLover</defName>
     <label>Struggle lover</label>
     <description></description>
     <iconPath>UI/Icons/Genes/Oral</iconPath>
@@ -22,5 +22,19 @@
     </modExtensions>
   </GeneDef>
 
+  <GeneDef ParentName="RV2_Struggle">
+    <defName>RV2_StruggleHater</defName>
+    <label>Struggle lover</label>
+    <description></description>
+    <iconPath>UI/Icons/Genes/Oral</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>StrugglePreference_Hated</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+    </modExtensions>
+  </GeneDef>
   
 </Defs>
