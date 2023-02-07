@@ -14,6 +14,12 @@
   </GeneCategoryDef>
 
   <GeneCategoryDef>
+    <defName>RV2_Vore_Struggle_Skill</defName>
+    <label>Vore Struggle Skill</label>
+    <displayPriorityInXenotype>620</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <GeneCategoryDef>
     <defName>RV2_Vore_Capacity</defName>
     <label>Vore Capacity</label>
     <displayPriorityInXenotype>620</displayPriorityInXenotype>
