@@ -49,5 +49,10 @@
     <displayPriorityInXenotype>620</displayPriorityInXenotype>
   </GeneCategoryDef>
 
+  <GeneCategoryDef>
+    <defName>RV2_Vore_Inability</defName>
+    <label>Vore Inability</label>
+    <displayPriorityInXenotype>620</displayPriorityInXenotype>
+  </GeneCategoryDef>
 
 </Defs>
