@@ -77,7 +77,7 @@
     <modExtensions>
       <li Class="RimVore2.GeneDefExtension_ForcedHediff">
         <hediffs>
-          <li>RV2_InfiniteStomach</li>
+          <li>RV2_Hammersapce_Stomach</li>
         </hediffs>
         <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
       </li>

@@ -13,8 +13,8 @@
   </HediffDef>
   
   
-  <HediffDef ParentName="RV2_archites">
-    <defName>RV2_hammersapce</defName>
+  <HediffDef ParentName="RV2_Storage">
+    <defName>RV2_Hammersapce_Stomach</defName>
     <label>Hammerspace</label>
     <description>This pawn's body is capable of compress everthing</description>
     <comps>
