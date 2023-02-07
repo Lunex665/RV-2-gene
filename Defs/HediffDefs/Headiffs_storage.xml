@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HediffDef Abstract="True" Name="RV2_Storage">
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  
+  <HediffDef ParentName="RV2_archites">
+    <defName>RV2_hammersapce</defName>
+    <label>Hammerspace</label>
+    <description>This pawn's body is capable of compress everthing</description>
+    <comps>
+    <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+      <quirks>
+        <li>Cheat_Hammerspace</li>
+      </quirks>
+    </li>
+    </comps> 
+  </HediffDef>
+  
+  <HediffDef ParentName="RV2_Storage">
+    <defName>RV2_LargeStomach</defName>
+    <label>Large stomach</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>StorageCapacity_VeryGood</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Storage">
+    <defName>RV2_BigStomach</defName>
+    <label>Big stomach</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>StorageCapacity_Good</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Storage">
+    <defName>RV2_SmallStomach</defName>
+    <label>Small stomach</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>StorageCapacity_Bad</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Storage">
+    <defName>RV2_TinyStomach</defName>
+    <label>Tiny stomach</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>StorageCapacity_VeryBad</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Storage">
+    <defName>RV2_InfiniteStomach</defName>
+    <label>Infinite stomach</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>Cheat_InfiniteCapacity</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+
+
+
+
+
+</Defs>

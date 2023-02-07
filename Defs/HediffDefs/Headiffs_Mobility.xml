@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HediffDef Abstract="True" Name="RV2_Mobility">
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  
+  <HediffDef ParentName="RV2_Mobility">
+    <defName>RV2_hammersapce</defName>
+    <label>Hammerspace</label>
+    <description>This pawn's body is capable of compress everthing</description>
+    <comps>
+    <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+      <quirks>
+        <li>Cheat_Hammerspace</li>
+      </quirks>
+    </li>
+    </comps> 
+  </HediffDef>
+  
+  <HediffDef ParentName="RV2_Mobility">
+    <defName>RV2_LargeMobility</defName>
+    <label>Hight Mobility</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>Mobility_VeryGood</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Mobility">
+    <defName>RV2_BigMobility</defName>
+    <label>Great Mobility</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>Mobility_Good</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Mobility">
+    <defName>RV2_SmallMobility</defName>
+    <label>Small Mobility</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>Mobility_Bad</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Mobility">
+    <defName>RV2_TinyMobility</defName>
+    <label>Tiny Mobility</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>Mobility_VeryBad</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  
+
+
+
+
+
+
+</Defs>

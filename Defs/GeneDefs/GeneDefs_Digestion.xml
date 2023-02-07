@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef Abstract="True" Name="RV2_Digestion">
+    <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+    <displayCategory>RV2_Vore_Digestion</displayCategory>
+    <displayOrderInCategory>300</displayOrderInCategory>
+    <biostatMet>0</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="RV2_Digestion">
+    <defName>RV2_Normal</defName>
+    <label>Normal digestion</label>
+    <description></description>
+    <iconPath>UI/Icons/Genes/Digest</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>RV2_Acid_Normal</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef ParentName="RV2_Digestion">
+    <defName>RV2_Extra_Strong</defName>
+    <label>Very Strong digestion</label>
+    <description></description>
+    <iconPath>UI/Icons/Genes/Digest</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>RV2_Acid_ExtraStrong</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef ParentName="RV2_Digestion">
+    <defName>RV2_Strong</defName>
+    <label>Strong digestion</label>
+    <description></description>
+    <iconPath>UI/Icons/Genes/Digest</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>RV2_Acid_Strong</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef ParentName="RV2_Digestion">
+    <defName>RV2_Weak</defName>
+    <label>Weak digestion</label>
+    <description></description>
+    <iconPath>UI/Icons/Genes/Digest</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>RV2_Acid_Weak</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef ParentName="RV2_Digestion">
+    <defName>RV2_VeryWeak</defName>
+    <label>Very Weak digestion</label>
+    <description></description>
+    <iconPath>UI/Icons/Genes/Digest</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>RV2_Acid_VeryWeak</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef ParentName="RV2_Digestion">
+    <defName>RV2_Instant</defName>
+    <label>Instant digestion</label>
+    <description></description>
+    <iconPath>UI/Icons/Genes/Digest</iconPath>
+    <biostatArc>1</biostatArc>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>RV2_Acid_Infinite</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+</Defs>

@@ -10,7 +10,7 @@
   <GeneDef ParentName="RV2_VoreEnabler">
     <defName>RV2_GoalEnabler_Absorb</defName>
     <label>Cellular xenoconvertibility</label>
-    <iconPath>UI/Icons/Genes/ConvertLube</iconPath>
+    <iconPath>UI/Icons/Genes/Absorb</iconPath>
     <modExtensions>
       <li Class="RimVore2.GeneDefExtension_ForcedHediff">
         <hediffs>
@@ -27,7 +27,7 @@
   <GeneDef ParentName="RV2_VoreEnabler">
     <defName>RV2_GoalEnabler_ConvertChemfuel</defName>
     <label>Chemfuel enzymes</label>
-    <iconPath>UI/Icons/Genes/ConvertMilk</iconPath>
+    <iconPath>UI/Icons/Genes/Chemfuel</iconPath>
     <modExtensions>
       <li Class="RimVore2.GeneDefExtension_ForcedHediff">
         <hediffs>
@@ -45,7 +45,7 @@
   <GeneDef ParentName="RV2_VoreEnabler">
     <defName>RV2_GoalEnabler_ConvertEggs</defName>
     <label>Eggfy enzymes</label>
-    <iconPath>UI/Icons/Genes/ConvertSperm</iconPath>
+    <iconPath>UI/Icons/Genes/Egg</iconPath>
     <modExtensions>
       <li Class="RimVore2.GeneDefExtension_ForcedHediff">
         <hediffs>
@@ -62,7 +62,7 @@
   <GeneDef ParentName="RV2_VoreEnabler">
     <defName>RV2_GoalEnabler_ConvertUrine</defName>
     <label>Kidney enchanter</label>
-    <iconPath>UI/Icons/Genes/Digest</iconPath>
+    <iconPath>UI/Icons/Genes/Kidney</iconPath>
     <modExtensions>
       <li Class="RimVore2.GeneDefExtension_ForcedHediff">
         <hediffs>
@@ -79,7 +79,7 @@
   <GeneDef ParentName="RV2_VoreEnabler">
     <defName>RV2_GoalEnabler_Cleavage</defName>
     <label>Cleavage mouth</label>
-    <iconPath>UI/Icons/Genes/Heal</iconPath>
+    <iconPath>UI/Icons/Genes/Cleavage</iconPath>
     <modExtensions>
       <li Class="RimVore2.GeneDefExtension_ForcedHediff">
         <hediffs>
@@ -97,7 +97,7 @@
   <GeneDef ParentName="RV2_VoreEnabler">
     <defName>RV2_TypeEnabler_Navel</defName>
     <label>Expandable navel</label>
-    <iconPath>UI/Icons/Genes/TempEndo</iconPath>
+    <iconPath>UI/Icons/Genes/Navel</iconPath>
     <modExtensions>
       <li Class="RimVore2.GeneDefExtension_ForcedHediff">
         <hediffs>
@@ -150,7 +150,7 @@
   <GeneDef ParentName="RV2_VoreEnabler">
     <defName>RV2_TypeEnabler_Udder</defName>
     <label>Udder elasticity</label>
-    <iconPath>UI/Icons/Genes/Vaginal</iconPath>
+    <iconPath>UI/Icons/Genes/Udder</iconPath>
     <modExtensions>
       <li Class="RimVore2.GeneDefExtension_ForcedHediff">
         <hediffs>

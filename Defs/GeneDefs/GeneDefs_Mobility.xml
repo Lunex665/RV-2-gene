@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef Abstract="True" Name="RV2_Vore_Walk">
+    <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+    <displayCategory>RV2_Vore_Mobility</displayCategory>
+    <displayOrderInCategory>300</displayOrderInCategory>
+    <biostatMet>0</biostatMet>
+    <biostatArc>1</biostatArc>
+  </GeneDef>
+
+  <GeneDef ParentName="RV2_Vore_Walk">
+    <defName>RV2_WalkLarge</defName>
+    <label>Belly acrobat</label>
+    <description></description>
+    <iconPath>UI/Icons/Genes/Oral</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>RV2_LargeMobility</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+    </modExtensions>
+  </GeneDef>
+  
+  <GeneDef ParentName="RV2_Vore_Walk">
+    <defName>RV2_WalkBig</defName>
+    <label>Belly-nimble</label>
+    <description></description>
+    <iconPath>UI/Icons/Genes/Oral</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>RV2_BigMobility</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef ParentName="RV2_Vore_Walk">
+    <defName>RV2_WalkSmall</defName>
+    <label>Belly-clumsy</label>
+    <description></description>
+    <iconPath>UI/Icons/Genes/Oral</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>RV2_SmallMobility</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+
+  <GeneDef ParentName="RV2_Vore_Walk">
+    <defName>RV2_WalkTiny</defName>
+    <label>Belly-dysfunctional</label>
+    <description></description>
+    <iconPath>UI/Icons/Genes/Oral</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>RV2_TinyMobility</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  
+
+
+
+</Defs>

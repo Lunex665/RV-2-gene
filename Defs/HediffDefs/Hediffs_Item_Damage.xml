@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HediffDef Abstract="True" Name="RV2_Item_Damage">
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages>
+  </HediffDef>
+ 
+  <HediffDef ParentName="RV2_Item_Damage">
+    <defName>RV2_Damage_Normal</defName>
+    <label>Normal Item damage</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>ItemDamage_Default</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+   <HediffDef ParentName="RV2_Item_Damage">
+    <defName>RV2_Damage_Total</defName>
+    <label>Total Erasure Item damage</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>ItemDamage_Traceless</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <HediffDef ParentName="RV2_Item_Damage">
+    <defName>RV2_Damage_Medium</defName>
+    <label>Medium Item damage</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>ItemDamage_Moth</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Item_Damage">
+    <defName>RV2_Damage_Weak</defName>
+    <label>Weak Item damage</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>ItemDamage_FiberFriendly</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Item_Damage">
+    <defName>RV2_Damage_Clean</defName>
+    <label>Cleaning Item</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>ItemDamage_Spotless</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  
+
+
+
+</Defs>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef>
+    <defName>Inability_PredEndoOnly</defName>
+    <displayCategory>Vore</displayCategory>
+    <biostat>-1</biostat>
+    <label>Acid neutralized</label>
+    <iconPath>UI/Icons/Genes/ConvertLube</iconPath>
+    <modExtensions>
+      <comps>
+        <li Class="RimVore2.QuirkComp_SpecialFlag">
+          <flag>EndoPredatorOnly</flag>
+        </li>
+      </comps>
+        <customEffectDescriptions>
+          <li></li>
+        </customEffectDescriptions>
+    </modExtensions>
+  </GeneDef>
+
+
+</Defs>

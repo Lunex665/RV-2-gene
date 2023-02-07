@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef Abstract="True" Name="RV2_PostVore">
+    <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+    <displayCategory>RV2_Vore_Post</displayCategory>
+    <displayOrderInCategory>300</displayOrderInCategory>
+    <biostatMet>0</biostatMet>
+    <biostatArc>1</biostatArc>
+  </GeneDef>
+
+  <GeneDef ParentName="RV2_PostVore">
+    <defName>RV2_SkillTheft</defName>
+    <label>Skill absorpion</label>
+    <description></description>
+    <iconPath>UI/Icons/Genes/Oral</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>RV2_Skillabsorb</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+    </modExtensions>
+  </GeneDef>
+  
+  <GeneDef ParentName="RV2_PostVore">
+    <defName>RV2_TraitTheft</defName>
+    <label>Trait Absorpion</label>
+    <description></description>
+    <iconPath>UI/Icons/Genes/Oral</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>RV2_TraitStealer</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef ParentName="RV2_PostVore">
+    <defName>RV2_Preyfocus</defName>
+    <label>Prey psyfocus</label>
+    <description></description>
+    <iconPath>UI/Icons/Genes/Oral</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>RV2_Psyprey</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+
+  <GeneDef ParentName="RV2_PostVore">
+    <defName>RV2_Predfocus</defName>
+    <label>Pred psyfocus</label>
+    <description></description>
+    <iconPath>UI/Icons/Genes/Oral</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>PostVoreAbilities_PsyfocusGainPrey</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  
+
+
+
+</Defs>

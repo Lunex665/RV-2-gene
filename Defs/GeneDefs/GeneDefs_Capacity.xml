@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef Abstract="True" Name="RV2_Capacity">
+    <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+    <displayCategory>RV2_Vore_Capacity</displayCategory>
+    <displayOrderInCategory>300</displayOrderInCategory>
+    <biostatMet>0</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="RV2_Capacity">
+    <defName>RV2_Large</defName>
+    <label>Large capacity</label>
+    <description></description>
+    <iconPath>UI/Icons/Genes/Oral</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>RV2_LargeStomach</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+    </modExtensions>
+  </GeneDef>
+  
+  <GeneDef ParentName="RV2_Capacity">
+    <defName>RV2_Big</defName>
+    <label>Big capacity</label>
+    <description></description>
+    <iconPath>UI/Icons/Genes/Oral</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>RV2_LargeStomach</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef ParentName="RV2_Capacity">
+    <defName>RV2_Small</defName>
+    <label>Small capacity</label>
+    <description></description>
+    <iconPath>UI/Icons/Genes/Oral</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>RV2_SmallStomach</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+
+  <GeneDef ParentName="RV2_Capacity">
+    <defName>RV2_Tiny</defName>
+    <label>Tiny capacity</label>
+    <description></description>
+    <iconPath>UI/Icons/Genes/Oral</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>RV2_TinyStomach</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef ParentName="RV2_Capacity">
+    <defName>RV2_Infinite</defName>
+    <label>Infinite capacity</label>
+    <description></description>
+    <biostatArc>1</biostatArc>
+    <iconPath>UI/Icons/Genes/Oral</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>RV2_InfiniteStomach</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+
+
+</Defs>

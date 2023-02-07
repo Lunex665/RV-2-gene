@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HediffDef Abstract="True" Name="RV2_Acidifer_Base">
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!--<HediffDef ParentName="RV2_VoreEnabledPart_Base">
+    <defName>RV2_Hediff_ForceInescapable</defName>
+    <label>DEBUG_QUIRKFORCER</label>
+    <description>Yo</description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>Cheat_Inescapable</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>-->
+  
+  <!-- MH: worth considering: instead of checking that the hediff is present, what about a check if the hediff is on the appropriate part? that way one can avoid unlocking several undesired hediffs when, for instance, one only wants to unlock chemfuel conversion in the breasts-->
+  
+  <!-- Goal Enablers 
+  These mainly unlock new goals for a pawn's exisiting types. -->
+  
+  <HediffDef ParentName="RV2_Acidifer_Base">
+    <defName>RV2_Acid_Normal</defName>
+    <label>Normal digestion</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>DigestionStrength_Normal</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+   <HediffDef ParentName="RV2_Acidifer_Base">
+    <defName>RV2_Acid_ExtraStrong</defName>
+    <label>Very Strong digestion</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>DigestionStrength_VeryGood</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <HediffDef ParentName="RV2_Acidifer_Base">
+    <defName>RV2_Acid_Strong</defName>
+    <label>Strong digestion</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>DigestionStrength_Good</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Acidifer_Base">
+    <defName>RV2_Acid_Weak</defName>
+    <label>Weak digestion</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>DigestionStrength_Bad</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Acidifer_Base">
+    <defName>RV2_Acid_VeryWeak</defName>
+    <label>Very Weak digestion</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>DigestionStrength_VeryBad</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Acidifer_Base">
+    <defName>RV2_Acid_Infinite</defName>
+    <label>Instant digestion</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>Cheat_InstantDigestion</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+
+
+</Defs>

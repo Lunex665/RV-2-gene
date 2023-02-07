@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef Abstract="True" Name="RV2_Struggle">
+    <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+    <displayCategory>RV2_Vore_Struggle</displayCategory>
+    <displayOrderInCategory>300</displayOrderInCategory>
+    <biostatMet>0</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="RV2_Struggle">
+    <defName>RV2_Strugglelover</defName>
+    <label>Struggle lover</label>
+    <description></description>
+    <iconPath>UI/Icons/Genes/Oral</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>RV2_StrugglePreference_Loved</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  
+</Defs>
