@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <HediffDef Abstract="True" Name="RV2_Struggle_Set">
+  <HediffDef Abstract="True" Name="RV2_Strip_Set">
     <hediffClass>HediffWithComps</hediffClass>
     <isBad>false</isBad>
     <everCurableByItem>false</everCurableByItem>
@@ -12,40 +12,40 @@
     </stages>
   </HediffDef>
  
-  <HediffDef ParentName="RV2_Struggle_Set">
-    <defName>Struggle_Loved</defName>
-    <label>Struggle Lover</label>
+  <HediffDef ParentName="RV2_Strip_Set">
+    <defName>Strip_Nude</defName>
+    <label>Skin Taster</label>
     <description></description>
     <comps>
       <li Class="RimVore2.HediffCompProperties_QuirkForcer">
         <quirks>
-          <li>StrugglePreference_Loved</li>
+          <li>StrippingPreference_Predator_SkinTaster</li>
         </quirks>
       </li>
     </comps>
   </HediffDef>
   
-  <HediffDef ParentName="RV2_Struggle_Set">
-    <defName>Struggle_Normal</defName>
-    <label>Struggle normal</label>
+  <HediffDef ParentName="RV2_Strip_Set">
+    <defName>Strip_Random</defName>
+    <label>Strip Random</label>
     <description></description>
     <comps>
       <li Class="RimVore2.HediffCompProperties_QuirkForcer">
         <quirks>
-          <li>StrugglePreference_Normal</li>
+          <li>StrippingPreference_Predator_None</li>
         </quirks>
       </li>
     </comps>
   </HediffDef>
 
-  <HediffDef ParentName="RV2_Struggle_Set">
-    <defName>Struggle_Hated</defName>
+  <HediffDef ParentName="RV2_Strip_Set">
+    <defName>Strip_Clothed</defName>
     <label>Struggle Hater</label>
     <description></description>
     <comps>
       <li Class="RimVore2.HediffCompProperties_QuirkForcer">
         <quirks>
-          <li>StrugglePreference_Hated</li>
+          <li>StrippingPreference_Predator_MothTongue</li>
         </quirks>
       </li>
     </comps>

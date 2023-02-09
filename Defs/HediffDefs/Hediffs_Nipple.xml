@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+   <HediffDef Abstract="True" Name="RV2_Nipple_Pref_Set">
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages>
+  </HediffDef>
+ 
+  <!-- Pred side-->
+  
+ 
+  <HediffDef ParentName="RV2_Nipple_Pref_Set">
+    <defName>RV2_Predator_Nipple_Obsessed</defName>
+    <label>Nipple predation obsession</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>TypePreference_Predator_Nipple_Obsessed</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Nipple_Pref_Set">
+    <defName>RV2_Predator_Nipple_Likes</defName>
+    <label>Nipple predation liking</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>TypePreference_Predator_Nipple_Likes</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <HediffDef ParentName="RV2_Nipple_Pref_Set">
+    <defName>RV2_Predator_Nipple_Neutral</defName>
+    <label>Nipple predation Neutral</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>TypePreference_Predator_Nipple_Neutral</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Nipple_Pref_Set">
+    <defName>RV2_Predator_Nipple_Dislikes</defName>
+    <label>Nipple predation Disliking</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>TypePreference_Predator_Nipple_Dislikes</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Nipple_Pref_Set">
+    <defName>RV2_Predator_Nipple_Refuses</defName>
+    <label>Nipple predation Hating</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>TypePreference_Predator_Nipple_Refuses</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <!-- Prey side-->
+  
+  <HediffDef ParentName="RV2_Nipple_Pref_Set">
+    <defName>RV2_Prey_Nipple_Obsessed</defName>
+    <label>Nipple prey Obsession</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>TypePreference_Prey_Nipple_Obsessed</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+
+  <HediffDef ParentName="RV2_Nipple_Pref_Set">
+    <defName>RV2_Prey_Nipple_Likes</defName>
+    <label>Nipple preying liking</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>TypePreference_Prey_Nipple_Likes</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Nipple_Pref_Set">
+    <defName>RV2_Prey_Nipple_Neutral</defName>
+    <label>Nipple Preying Neutral</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>TypePreference_Prey_Nipple_Neutral</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Nipple_Pref_Set">
+    <defName>RV2_Prey_Nipple_Dislikes</defName>
+    <label>Nipple preying Disliking</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>TypePreference_Prey_Nipple_Dislikes</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Nipple_Pref_Set">
+    <defName>RV2_Prey_Nipple_Refuses</defName>
+    <label>Nipple preying Hating</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>TypePreference_Prey_Nipple_Refuses</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+
+</Defs>

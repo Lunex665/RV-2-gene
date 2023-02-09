@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <HediffDef Abstract="True" Name="RV2_Item_Damage">
+  <HediffDef Abstract="True" Name="RV2_Swallow_Set">
     <hediffClass>HediffWithComps</hediffClass>
     <isBad>false</isBad>
     <everCurableByItem>false</everCurableByItem>
@@ -12,73 +12,82 @@
     </stages>
   </HediffDef>
  
-  <HediffDef ParentName="RV2_Item_Damage">
-    <defName>RV2_Damage_Normal</defName>
-    <label>Normal Item damage</label>
+  <HediffDef ParentName="RV2_Swallow_Set">
+    <defName>Swallow_VeryFast</defName>
+    <label>Very fast swallow</label>
     <description></description>
     <comps>
       <li Class="RimVore2.HediffCompProperties_QuirkForcer">
         <quirks>
-          <li>ItemDamage_Default</li>
-        </quirks>
-      </li>
-    </comps>
-  </HediffDef>
-
-  <HediffDef ParentName="RV2_Item_Damage">
-    <defName>RV2_Damage_Total</defName>
-    <label>Total Erasure Item damage</label>
-    <description></description>
-    <comps>
-      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
-        <quirks>
-          <li>ItemDamage_Traceless</li>
+          <li>SwallowSpeed_VeryGood</li>
         </quirks>
       </li>
     </comps>
   </HediffDef>
   
-  <HediffDef ParentName="RV2_Item_Damage">
-    <defName>RV2_Damage_Medium</defName>
-    <label>Medium Item damage</label>
+  <HediffDef ParentName="RV2_Swallow_Set">
+    <defName>Swallow_Fast</defName>
+    <label>Fast swallow</label>
     <description></description>
     <comps>
       <li Class="RimVore2.HediffCompProperties_QuirkForcer">
         <quirks>
-          <li>ItemDamage_Moth</li>
+          <li>SwallowSpeed_Good</li>
         </quirks>
       </li>
     </comps>
   </HediffDef>
 
-  <HediffDef ParentName="RV2_Item_Damage">
-    <defName>RV2_Damage_Weak</defName>
-    <label>Weak Item damage</label>
+  <HediffDef ParentName="RV2_Swallow_Set">
+    <defName>Swallow_Normal</defName>
+    <label>Normal swallow</label>
     <description></description>
     <comps>
       <li Class="RimVore2.HediffCompProperties_QuirkForcer">
         <quirks>
-          <li>ItemDamage_FiberFriendly</li>
+          <li>SwallowSpeed_Normal</li>
         </quirks>
       </li>
     </comps>
   </HediffDef>
 
-  <HediffDef ParentName="RV2_Item_Damage">
-    <defName>RV2_Damage_Clean</defName>
-    <label>Cleaning Item</label>
+  <HediffDef ParentName="RV2_Swallow_Set">
+    <defName>Swallow_Slow</defName>
+    <label>Slow swallow</label>
     <description></description>
     <comps>
       <li Class="RimVore2.HediffCompProperties_QuirkForcer">
         <quirks>
-          <li>ItemDamage_Spotless</li>
+          <li>SwallowSpeed_Bad</li>
         </quirks>
       </li>
     </comps>
   </HediffDef>
 
-  
+  <HediffDef ParentName="RV2_Swallow_Set">
+    <defName>Swallow_VerySlow</defName>
+    <label>Very Slow swallow</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>SwallowSpeed_VeryBad</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
 
-
+  <HediffDef ParentName="RV2_Swallow_Set">
+    <defName>Swallow_instant</defName>
+    <label>Instant swallow</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>Cheat_InstantSwallow</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
 
 </Defs>

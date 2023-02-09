@@ -55,4 +55,11 @@
     <displayPriorityInXenotype>620</displayPriorityInXenotype>
   </GeneCategoryDef>
 
+  <GeneCategoryDef>
+    <defName>RV2_Vore_Strip</defName>
+    <label>Vore Strip Preference</label>
+    <displayPriorityInXenotype>620</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+
 </Defs>
