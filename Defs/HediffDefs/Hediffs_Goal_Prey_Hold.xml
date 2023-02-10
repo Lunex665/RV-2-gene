@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HediffDef Abstract="True" Name="RV2_Prey_Goal_Hold_Set">
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages>
+  </HediffDef>
+ 
+  <HediffDef ParentName="RV2_Prey_Goal_Hold_Set">
+    <defName>RV2_Prey_Goal_Hold_To_Normal</defName>
+    <label>Normal Prey Holding Goal</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>GoalPreference_Prey_Hold_Neutral</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Prey_Goal_Hold_Set">
+    <defName>RV2_Prey_Goal_Hold_To_Obsessed</defName>
+    <label>Obsessed Prey Holding Goal</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>GoalPreference_Prey_Hold_Obsessed</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <HediffDef ParentName="RV2_Prey_Goal_Hold_Set">
+    <defName>RV2_Prey_Goal_Hold_To_Likes</defName>
+    <label>Liking Prey Holding Goal</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>GoalPreference_Prey_Hold_Likes</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Prey_Goal_Hold_Set">
+    <defName>RV2_Prey_Goal_Hold_To_Dislikes</defName>
+    <label>Disliking Prey Holding Goal</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>GoalPreference_Prey_Hold_Dislikes</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Prey_Goal_Hold_Set">
+    <defName>RV2_Prey_Goal_Hold_To_Refuses</defName>
+    <label>Refusing Prey Holding Goal</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>GoalPreference_Prey_Hold_Refuses</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  
+
+
+
+</Defs>

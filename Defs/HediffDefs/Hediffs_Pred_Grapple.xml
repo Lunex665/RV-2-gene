@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HediffDef Abstract="True" Name="RV2_Pred_Grapple_Set">
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages>
+  </HediffDef>
+ 
+  <HediffDef ParentName="RV2_Pred_Grapple_Set">
+    <defName>RV2_Grapple_Normal</defName>
+    <label>Normal Grapple Strength</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>GrappleStrength_Normal</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Pred_Grapple_Set">
+    <defName>RV2_Grapple_Hot</defName>
+    <label>Very High Grapple Strength</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>GrappleStrength_VeryGood</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <HediffDef ParentName="RV2_Pred_Grapple_Set">
+    <defName>RV2_Grapple_Warm</defName>
+    <label>High Grapple Strength</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>GrappleStrength_Good</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Pred_Grapple_Set">
+    <defName>RV2_Grapple_Cold</defName>
+    <label>Weak Grapple Strength</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>GrappleStrength_Bad</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Pred_Grapple_Set">
+    <defName>RV2_Grapple_Freezing</defName>
+    <label>Very Weak Grapple Strength</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>GrappleStrength_VeryBad</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  
+
+
+
+</Defs>

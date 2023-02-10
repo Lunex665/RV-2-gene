@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HediffDef Abstract="True" Name="RV2_Prey_Goal_Digestion_Set">
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages>
+  </HediffDef>
+ 
+  <HediffDef ParentName="RV2_Prey_Goal_Digestion_Set">
+    <defName>RV2_Prey_Goal_Digestion_To_Normal</defName>
+    <label>Normal Prey Digestion Goal</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>GoalPreference_Prey_Digest_Neutral</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Prey_Goal_Digestion_Set">
+    <defName>RV2_Prey_Goal_Digestion_To_Obsessed</defName>
+    <label>Obsessed Prey Digestion Goal</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>GoalPreference_Prey_Digest_Obsessed</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <HediffDef ParentName="RV2_Prey_Goal_Digestion_Set">
+    <defName>RV2_Prey_Goal_Digestion_To_Likes</defName>
+    <label>Liking Prey Digestion Goal</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>GoalPreference_Prey_Digest_Likes</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Prey_Goal_Digestion_Set">
+    <defName>RV2_Prey_Goal_Digestion_To_Dislikes</defName>
+    <label>Disliking Prey Digestion Goal</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>GoalPreference_Prey_Digest_Dislikes</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Prey_Goal_Digestion_Set">
+    <defName>RV2_Prey_Goal_Digestion_To_Refuses</defName>
+    <label>Refusing Prey Digestion Goal</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>GoalPreference_Prey_Digest_Refuses</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  
+
+
+
+</Defs>

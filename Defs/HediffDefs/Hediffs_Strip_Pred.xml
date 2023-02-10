@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HediffDef Abstract="True" Name="RV2_Strip_Pred_Set">
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages>
+  </HediffDef>
+ 
+  <HediffDef ParentName="RV2_Strip_Pred_Set">
+    <defName>Strip_Nude</defName>
+    <label>Skin Taster</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>StrippingPreference_Predator_SkinTaster</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <HediffDef ParentName="RV2_Strip_Pred_Set">
+    <defName>Strip_Random</defName>
+    <label>Strip Random</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>StrippingPreference_Predator_None</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Strip_Pred_Set">
+    <defName>Strip_Clothed</defName>
+    <label>Struggle Hater</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>StrippingPreference_Predator_MothTongue</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+
+
+</Defs>

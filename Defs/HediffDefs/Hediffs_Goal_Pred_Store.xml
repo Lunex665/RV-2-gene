@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HediffDef Abstract="True" Name="RV2Pred_Goal_Store_Set">
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages>
+  </HediffDef>
+ 
+  <HediffDef ParentName="RV2Pred_Goal_Store_Set">
+    <defName>RV2Pred_Goal_Store_To_Normal</defName>
+    <label>Normal Pred Store Goal</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>GoalPreference_Predator_Store_Neutral</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2Pred_Goal_Store_Set">
+    <defName>RV2Pred_Goal_Store_To_Obsessed</defName>
+    <label>Obsessed Pred Store Goal</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>GoalPreference_Predator_Store_Obsessed</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <HediffDef ParentName="RV2Pred_Goal_Store_Set">
+    <defName>RV2Pred_Goal_Store_To_Likes</defName>
+    <label>Liking Pred Store Goal</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>GoalPreference_Predator_Store_Likes</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2Pred_Goal_Store_Set">
+    <defName>RV2Pred_Goal_Store_To_Dislikes</defName>
+    <label>Disliking Pred Store Goal</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>GoalPreference_Predator_Store_Dislikes</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2Pred_Goal_Store_Set">
+    <defName>RV2Pred_Goal_Store_To_Refuses</defName>
+    <label>Refusing Pred Store Goal</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>GoalPreference_Predator_Store_Refuses</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  
+
+
+
+</Defs>

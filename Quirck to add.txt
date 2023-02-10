@@ -1,0 +1,12 @@
+<RimVore2.QuirkDef>
+    <defName>Cheat_BodyLock</defName>
+    <label>Body Lock</label>
+    <description>[PAWN_label]’s body lock [PAWN_possessive] prey down to an incredible degree.</description>
+    <rarity>ForcedOnly</rarity>
+    <comps>
+      <li Class="RimVore2.QuirkComp_CapacityOffsetModifier">
+        <modifierName>RequiredStrugglesMultiplierAsPredator</modifierName>
+        <modifierValue>999999999</modifierValue>
+      </li>
+    </comps>
+  </RimVore2.QuirkDef>

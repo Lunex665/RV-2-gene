@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <HediffDef Abstract="True" Name="RV2_Inabilities">
+  <HediffDef Abstract="True" Name="RV2_Inabilities_Set">
     <hediffClass>HediffWithComps</hediffClass>
     <isBad>false</isBad>
     <everCurableByItem>false</everCurableByItem>
@@ -12,7 +12,7 @@
     </stages>
   </HediffDef>
  
-  <HediffDef ParentName="RV2_Inabilities">
+  <HediffDef ParentName="RV2_Inabilities_Set">
     <defName>RV2_NonLethalOnly</defName>
     <label>Prey Surrend</label>
     <description></description>
@@ -25,7 +25,7 @@
     </comps>
   </HediffDef>
   
-  <HediffDef ParentName="RV2_Inabilities">
+  <HediffDef ParentName="RV2_Inabilities_Set">
     <defName>RV2_LethalOnly</defName>
     <label>Paralyzing Enzymes</label>
     <description></description>

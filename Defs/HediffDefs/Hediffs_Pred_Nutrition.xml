@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HediffDef Abstract="True" Name="RV2_Pred_Nutrition_Set">
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages>
+  </HediffDef>
+ 
+  <HediffDef ParentName="RV2_Pred_Nutrition_Set">
+    <defName>RV2_Nutrition_To_Normal</defName>
+    <label>Normal Nutrition</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>NutritionEfficiency_Normal</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Pred_Nutrition_Set">
+    <defName>RV2_Nutrition_To_Total</defName>
+    <label>Very High Nutrition</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>NutritionEfficiency_VeryGood</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <HediffDef ParentName="RV2_Pred_Nutrition_Set">
+    <defName>RV2_Nutrition_To_Medium</defName>
+    <label>High Nutrition</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>NutritionEfficiency_Good</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Pred_Nutrition_Set">
+    <defName>RV2_Nutrition_To_Weak</defName>
+    <label>Poor Nutrition</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>NutritionEfficiency_Bad</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Pred_Nutrition_Set">
+    <defName>RV2_Nutrition_To_VeryWeak</defName>
+    <label>Very Poor Nutrition</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>NutritionEfficiency_VeryBad</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Pred_Nutrition_Set">
+    <defName>RV2_Nutrition_To_Industrial</defName>
+    <label>Very Poor Nutrition</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>Cheat_HyperEfficient</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+
+
+</Defs>
