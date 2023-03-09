@@ -14,7 +14,7 @@
   
   
   <HediffDef ParentName="RV2_PostVore">
-    <defName>RV2_Skillabsorb</defName>
+    <defName>RV2_SetTo_Skillabsorb</defName>
     <label>Skill absorpion</label>
     <description></description>
     <comps>
@@ -27,7 +27,7 @@
   </HediffDef>
   
   <HediffDef ParentName="RV2_PostVore">
-    <defName>RV2_TraitStealer</defName>
+    <defName>RV2_SetTo_TraitStealer</defName>
     <label>Trait absorb</label>
     <description></description>
     <comps>
@@ -40,7 +40,7 @@
   </HediffDef>
 
   <HediffDef ParentName="RV2_PostVore">
-    <defName>RV2_Psyprey</defName>
+    <defName>RV2_SetTo_Psyprey</defName>
     <label>Prey focus</label>
     <description></description>
     <comps>
@@ -53,7 +53,7 @@
   </HediffDef>
 
   <HediffDef ParentName="RV2_PostVore">
-    <defName>RV2_Psypred</defName>
+    <defName>RV2_SetTo_Psypred</defName>
     <label>Pred focus</label>
     <description></description>
     <comps>

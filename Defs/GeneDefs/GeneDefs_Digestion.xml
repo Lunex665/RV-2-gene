@@ -8,7 +8,7 @@
   </GeneDef>
 
   <GeneDef ParentName="RV2_Digestion">
-    <defName>RV2_Normal</defName>
+    <defName>RV2_Exstender_Normal</defName>
     <label>Normal digestion</label>
     <description></description>
     <iconPath>UI/Icons/Genes/Digest</iconPath>
@@ -23,7 +23,7 @@
   </GeneDef>
 
   <GeneDef ParentName="RV2_Digestion">
-    <defName>RV2_Extra_Strong</defName>
+    <defName>RV2_Exstender_Extra_Strong</defName>
     <label>Very Strong digestion</label>
     <description></description>
     <iconPath>UI/Icons/Genes/Digest</iconPath>
@@ -38,7 +38,7 @@
   </GeneDef>
 
   <GeneDef ParentName="RV2_Digestion">
-    <defName>RV2_Strong</defName>
+    <defName>RV2_Exstender_Strong</defName>
     <label>Strong digestion</label>
     <description></description>
     <iconPath>UI/Icons/Genes/Digest</iconPath>
@@ -53,7 +53,7 @@
   </GeneDef>
 
   <GeneDef ParentName="RV2_Digestion">
-    <defName>RV2_Weak</defName>
+    <defName>RV2_Exstender_Weak</defName>
     <label>Weak digestion</label>
     <description></description>
     <iconPath>UI/Icons/Genes/Digest</iconPath>
@@ -68,7 +68,7 @@
   </GeneDef>
 
   <GeneDef ParentName="RV2_Digestion">
-    <defName>RV2_VeryWeak</defName>
+    <defName>RV2_Exstender_VeryWeak</defName>
     <label>Very Weak digestion</label>
     <description></description>
     <iconPath>UI/Icons/Genes/Digest</iconPath>
@@ -83,7 +83,7 @@
   </GeneDef>
 
   <GeneDef ParentName="RV2_Digestion">
-    <defName>RV2_Instant</defName>
+    <defName>RV2_Exstender_Instant</defName>
     <label>Instant digestion</label>
     <description></description>
     <iconPath>UI/Icons/Genes/Digest</iconPath>

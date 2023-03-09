@@ -14,7 +14,7 @@
   
   
   <HediffDef ParentName="RV2_Mobility">
-    <defName>RV2_hammersapce</defName>
+    <defName>RV2_SetTo_hammersapce</defName>
     <label>Hammerspace</label>
     <description>This pawn's body is capable of compress everthing</description>
     <comps>
@@ -27,7 +27,7 @@
   </HediffDef>
   
   <HediffDef ParentName="RV2_Mobility">
-    <defName>RV2_LargeMobility</defName>
+    <defName>RV2_SetTo_LargeMobility</defName>
     <label>Hight Mobility</label>
     <description></description>
     <comps>
@@ -40,7 +40,7 @@
   </HediffDef>
 
   <HediffDef ParentName="RV2_Mobility">
-    <defName>RV2_BigMobility</defName>
+    <defName>RV2_SetTo_BigMobility</defName>
     <label>Great Mobility</label>
     <description></description>
     <comps>
@@ -53,7 +53,7 @@
   </HediffDef>
 
   <HediffDef ParentName="RV2_Mobility">
-    <defName>RV2_SmallMobility</defName>
+    <defName>RV2_SetTo_SmallMobility</defName>
     <label>Small Mobility</label>
     <description></description>
     <comps>
@@ -66,7 +66,7 @@
   </HediffDef>
 
   <HediffDef ParentName="RV2_Mobility">
-    <defName>RV2_TinyMobility</defName>
+    <defName>RV2_SetTo_TinyMobility</defName>
     <label>Tiny Mobility</label>
     <description></description>
     <comps>
