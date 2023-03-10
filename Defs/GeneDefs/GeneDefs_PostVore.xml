@@ -16,7 +16,7 @@
     <modExtensions>
       <li Class="RimVore2.GeneDefExtension_ForcedHediff">
         <hediffs>
-          <li>RV2_Skillabsorb</li>
+          <li>RV2_SetTo_Skillabsorb</li>
         </hediffs>
         <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
       </li>
@@ -31,7 +31,7 @@
     <modExtensions>
       <li Class="RimVore2.GeneDefExtension_ForcedHediff">
         <hediffs>
-          <li>RV2_TraitStealer</li>
+          <li>RV2_SetTo_TraitStealer</li>
         </hediffs>
         <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
       </li>
@@ -46,7 +46,7 @@
     <modExtensions>
       <li Class="RimVore2.GeneDefExtension_ForcedHediff">
         <hediffs>
-          <li>RV2_Psyprey</li>
+          <li>RV2_SetTo_Psyprey</li>
         </hediffs>
         <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
       </li>
@@ -62,7 +62,7 @@
     <modExtensions>
       <li Class="RimVore2.GeneDefExtension_ForcedHediff">
         <hediffs>
-          <li>PostVoreAbilities_PsyfocusGainPrey</li>
+          <li>RV2_SetTo_Psypred</li>
         </hediffs>
         <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
       </li>
