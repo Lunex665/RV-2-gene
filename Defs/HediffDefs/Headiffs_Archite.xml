@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HediffDef Abstract="True" Name="RV2_Mobility">
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  
+  <HediffDef ParentName="RV2_Mobility">
+    <defName>RV2_SetTo_hammersapce</defName>
+    <label>Hammerspace</label>
+    <description>This pawn's body is capable of compress everthing</description>
+    <comps>
+    <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+      <quirks>
+        <li>Cheat_Hammerspace</li>
+      </quirks>
+    </li>
+    </comps> 
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Acidifer_Base">
+    <defName>RV2_SetTo_Acid_Infinite</defName>
+    <label>Instant digestion</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>Cheat_InstantDigestion</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Pred_Nutrition_Set">
+    <defName>RV2_Nutrition_To_Industrial</defName>
+    <label>Very Poor Nutrition</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>Cheat_HyperEfficient</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_Swallow_Set">
+    <defName>Swallow_instant</defName>
+    <label>Instant swallow</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>Cheat_InstantSwallow</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef Abstract="True" Name="RV2_PostVore">
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages>
+  </HediffDef>
+
+
+  <HediffDef ParentName="RV2_PostVore">
+    <defName>RV2_SetTo_Skillabsorb</defName>
+    <label>Skill absorpion</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>PostVoreAbilities_SkillAbsorb</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_PostVore">
+    <defName>RV2_SetTo_TraitStealer</defName>
+    <label>Trait absorb</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>PostVoreAbilities_TraitAbsorb</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_PostVore">
+    <defName>RV2_SetTo_Psyprey</defName>
+    <label>Prey focus</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>PostVoreAbilities_PsyfocusGainPrey</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2_PostVore">
+    <defName>RV2_SetTo_Psypred</defName>
+    <label>Pred focus</label>
+    <description></description>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>PostVoreAbilities_PsyfocusGainPredator</li>
+        </quirks>
+      </li>
+    </comps>
+
+  </HediffDef>
+
+
+</Defs>
