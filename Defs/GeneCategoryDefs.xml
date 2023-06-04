@@ -1,65 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-  <GeneCategoryDef>
-    <defName>RV2_Vore</defName>
-    <label>Vore</label>
-    <displayPriorityInXenotype>620</displayPriorityInXenotype>
-  </GeneCategoryDef>
-
-  <GeneCategoryDef>
-    <defName>RV2_Vore_Struggle</defName>
-    <label>Vore Struggle Preference</label>
-    <displayPriorityInXenotype>620</displayPriorityInXenotype>
-  </GeneCategoryDef>
-
+  
   <GeneCategoryDef>
     <defName>RV2_Vore_Struggle_Skill</defName>
-    <label>Vore Struggle Skill</label>
+    <label>Vore archite</label>
     <displayPriorityInXenotype>620</displayPriorityInXenotype>
   </GeneCategoryDef>
-
-  <GeneCategoryDef>
-    <defName>RV2_Vore_Capacity</defName>
-    <label>Vore Capacity</label>
-    <displayPriorityInXenotype>620</displayPriorityInXenotype>
-  </GeneCategoryDef>
-
-    <GeneCategoryDef>
-    <defName>RV2_Vore_Post</defName>
-    <label>Vore Post Capacitiy</label>
-    <displayPriorityInXenotype>620</displayPriorityInXenotype>
-  </GeneCategoryDef>
-
-    <GeneCategoryDef>
-    <defName>RV2_Vore_Digestion</defName>
-    <label>Vore Digestion Strength</label>
-    <displayPriorityInXenotype>620</displayPriorityInXenotype>
-  </GeneCategoryDef>
-
-  <GeneCategoryDef>
-    <defName>RV2_Vore_Mobility</defName>
-    <label>Vore Mobility</label>
-    <displayPriorityInXenotype>620</displayPriorityInXenotype>
-  </GeneCategoryDef>
-
-  <GeneCategoryDef>
-    <defName>RV2_Item</defName>
-    <label>Vore Item Damage</label>
-    <displayPriorityInXenotype>620</displayPriorityInXenotype>
-  </GeneCategoryDef>
-
-  <GeneCategoryDef>
-    <defName>RV2_Vore_Inability</defName>
-    <label>Vore Inability</label>
-    <displayPriorityInXenotype>620</displayPriorityInXenotype>
-  </GeneCategoryDef>
-
-  <GeneCategoryDef>
-    <defName>RV2_Vore_Strip</defName>
-    <label>Vore Strip Preference</label>
-    <displayPriorityInXenotype>620</displayPriorityInXenotype>
-  </GeneCategoryDef>
-
 
 </Defs>

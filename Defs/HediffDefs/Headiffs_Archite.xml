@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <HediffDef Abstract="True" Name="RV2_Mobility">
+  <HediffDef Abstract="True" Name="RV2_Archite_Base">
     <hediffClass>HediffWithComps</hediffClass>
     <isBad>false</isBad>
     <everCurableByItem>false</everCurableByItem>
@@ -13,7 +13,7 @@
   </HediffDef>
   
   
-  <HediffDef ParentName="RV2_Mobility">
+  <HediffDef ParentName="RV2_Archite_Base">
     <defName>RV2_SetTo_hammersapce</defName>
     <label>Hammerspace</label>
     <description>This pawn's body is capable of compress everthing</description>
@@ -26,7 +26,7 @@
     </comps> 
   </HediffDef>
 
-  <HediffDef ParentName="RV2_Acidifer_Base">
+  <HediffDef ParentName="RV2_Archite_Base">
     <defName>RV2_SetTo_Acid_Infinite</defName>
     <label>Instant digestion</label>
     <description></description>
@@ -39,9 +39,9 @@
     </comps>
   </HediffDef>
 
-  <HediffDef ParentName="RV2_Pred_Nutrition_Set">
+  <HediffDef ParentName="RV2_Archite_Base">
     <defName>RV2_Nutrition_To_Industrial</defName>
-    <label>Very Poor Nutrition</label>
+    <label>Industrial Nutrition</label>
     <description></description>
     <comps>
       <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -52,7 +52,7 @@
     </comps>
   </HediffDef>
 
-  <HediffDef ParentName="RV2_Swallow_Set">
+  <HediffDef ParentName="RV2_Archite_Base">
     <defName>Swallow_instant</defName>
     <label>Instant swallow</label>
     <description></description>
@@ -65,20 +65,7 @@
     </comps>
   </HediffDef>
 
-  <HediffDef Abstract="True" Name="RV2_PostVore">
-    <hediffClass>HediffWithComps</hediffClass>
-    <isBad>false</isBad>
-    <everCurableByItem>false</everCurableByItem>
-    <stages>
-      <li>
-        <minSeverity>0</minSeverity>
-        <becomeVisible>false</becomeVisible>
-      </li>
-    </stages>
-  </HediffDef>
-
-
-  <HediffDef ParentName="RV2_PostVore">
+  <HediffDef ParentName="RV2_Archite_Base">
     <defName>RV2_SetTo_Skillabsorb</defName>
     <label>Skill absorpion</label>
     <description></description>
@@ -91,7 +78,7 @@
     </comps>
   </HediffDef>
 
-  <HediffDef ParentName="RV2_PostVore">
+  <HediffDef ParentName="RV2_Archite_Base">
     <defName>RV2_SetTo_TraitStealer</defName>
     <label>Trait absorb</label>
     <description></description>
@@ -104,7 +91,7 @@
     </comps>
   </HediffDef>
 
-  <HediffDef ParentName="RV2_PostVore">
+  <HediffDef ParentName="RV2_Archite_Base">
     <defName>RV2_SetTo_Psyprey</defName>
     <label>Prey focus</label>
     <description></description>
@@ -117,7 +104,7 @@
     </comps>
   </HediffDef>
 
-  <HediffDef ParentName="RV2_PostVore">
+  <HediffDef ParentName="RV2_Archite_Base">
     <defName>RV2_SetTo_Psypred</defName>
     <label>Pred focus</label>
     <description></description>

@@ -1,102 +1,131 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <GeneDef Abstract="True" Name="RV2_Digestion">
+  <GeneDef Abstract="True" Name="RV2_Archite">
     <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-    <displayCategory>RV2_Vore_Digestion</displayCategory>
+    <displayCategory>Vore archite</displayCategory>
     <displayOrderInCategory>300</displayOrderInCategory>
     <biostatMet>0</biostatMet>
+    <biostatArc>1</biostatArc>
   </GeneDef>
 
-  <GeneDef ParentName="RV2_Digestion">
-    <defName>RV2_Exstender_Normal</defName>
-    <label>Normal digestion</label>
+  <GeneDef ParentName="RV2_Archite">
+    <defName>RV2_Archite_hammersapce</defName>
+    <label>Hammerspace</label>
     <description></description>
     <iconPath>UI/Icons/Genes/Digest</iconPath>
     <modExtensions>
       <li Class="RimVore2.GeneDefExtension_ForcedHediff">
         <hediffs>
-          <li>RV2_Acid_Normal</li>
+          <li>RV2_SetTo_hammersapce</li>
         </hediffs>
         <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
       </li>
     </modExtensions>
   </GeneDef>
 
-  <GeneDef ParentName="RV2_Digestion">
-    <defName>RV2_Exstender_Extra_Strong</defName>
-    <label>Very Strong digestion</label>
-    <description></description>
-    <iconPath>UI/Icons/Genes/Digest</iconPath>
-    <modExtensions>
-      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
-        <hediffs>
-          <li>RV2_Acid_ExtraStrong</li>
-        </hediffs>
-        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
-      </li>
-    </modExtensions>
-  </GeneDef>
-
-  <GeneDef ParentName="RV2_Digestion">
-    <defName>RV2_Exstender_Strong</defName>
-    <label>Strong digestion</label>
-    <description></description>
-    <iconPath>UI/Icons/Genes/Digest</iconPath>
-    <modExtensions>
-      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
-        <hediffs>
-          <li>RV2_Acid_Strong</li>
-        </hediffs>
-        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
-      </li>
-    </modExtensions>
-  </GeneDef>
-
-  <GeneDef ParentName="RV2_Digestion">
-    <defName>RV2_Exstender_Weak</defName>
-    <label>Weak digestion</label>
-    <description></description>
-    <iconPath>UI/Icons/Genes/Digest</iconPath>
-    <modExtensions>
-      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
-        <hediffs>
-          <li>RV2_Acid_Weak</li>
-        </hediffs>
-        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
-      </li>
-    </modExtensions>
-  </GeneDef>
-
-  <GeneDef ParentName="RV2_Digestion">
-    <defName>RV2_Exstender_VeryWeak</defName>
-    <label>Very Weak digestion</label>
-    <description></description>
-    <iconPath>UI/Icons/Genes/Digest</iconPath>
-    <modExtensions>
-      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
-        <hediffs>
-          <li>RV2_Acid_VeryWeak</li>
-        </hediffs>
-        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
-      </li>
-    </modExtensions>
-  </GeneDef>
-
-  <GeneDef ParentName="RV2_Digestion">
-    <defName>RV2_Exstender_Instant</defName>
+  <GeneDef ParentName="RV2_Archite">
+    <defName>RV2_Archite_digestion</defName>
     <label>Instant digestion</label>
     <description></description>
     <iconPath>UI/Icons/Genes/Digest</iconPath>
-    <biostatArc>1</biostatArc>
     <modExtensions>
       <li Class="RimVore2.GeneDefExtension_ForcedHediff">
         <hediffs>
-          <li>RV2_Acid_Infinite</li>
+          <li>RV2_SetTo_Acid_Infinite</li>
         </hediffs>
         <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
       </li>
     </modExtensions>
   </GeneDef>
 
+  <GeneDef ParentName="RV2_Archite">
+    <defName>RV2_Archite_Nutrition</defName>
+    <label>Industrial Nutrition</label>
+    <description></description>
+    <iconPath>UI/Icons/Genes/Digest</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>RV2_Nutrition_To_Industrial</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef ParentName="RV2_Archite">
+    <defName>RV2_Archite_Swallow</defName>
+    <label>Instant swallow</label>
+    <description></description>
+    <iconPath>UI/Icons/Genes/Digest</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>Cheat_InstantSwallow</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef ParentName="RV2_Archite">
+    <defName>RV2_Archite_Skillabsorpion</defName>
+    <label>Skill absorpion</label>
+    <description></description>
+    <iconPath>UI/Icons/Genes/Digest</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>RV2_SetTo_Skillabsorb</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef ParentName="RV2_Archite">
+    <defName>RV2_Archite_Traitabsorb</defName>
+    <label>Trait absorb</label>
+    <description></description>
+    <iconPath>UI/Icons/Genes/Digest</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>PostVoreAbilities_TraitAbsorb</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef ParentName="RV2_Archite">
+    <defName>RV2_Archite_Preyfocus</defName>
+    <label>Prey focus</label>
+    <description></description>
+    <iconPath>UI/Icons/Genes/Digest</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>PostVoreAbilities_PsyfocusGainPrey</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+    </modExtensions>
+  </GeneDef>
   
+  <GeneDef ParentName="RV2_Archite">
+    <defName>RV2_Archite_Predfocus</defName>
+    <label>Pred focus</label>
+    <description></description>
+    <iconPath>UI/Icons/Genes/Digest</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+        <hediffs>
+          <li>PostVoreAbilities_PsyfocusGainPredator</li>
+        </hediffs>
+        <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
 </Defs>
